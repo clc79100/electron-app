@@ -6,12 +6,10 @@ export default function Home() {
     <Container sx={{ 
         display: 'flex', 
         flexDirection: 'column', 
-        justifyContent: 'center', 
-        alignItems: 'center', 
         gap: 2, 
         height: '100vh' 
     }}>
-        <Typography variant="h4">HomeScreen</Typography>
+        <Typography variant="h3" fontWeight={500}>Home</Typography>
     </Container>
   );
 }

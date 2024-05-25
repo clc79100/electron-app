@@ -63,9 +63,9 @@ export default function VerticalTabs() {
         aria-label="Vertical tabs example"
         sx={{ borderRight: 1, borderColor: 'divider' }}
       >
-        <Tab label="Item" icon={<HomeIcon/>} {...a11yProps(0)} />
-        <Tab label="Item Two" icon={<QueryStatsIcon/>} {...a11yProps(1)} />
-        <Tab label="Item Three" icon={<SettingsIcon/>} {...a11yProps(2)} />
+        <Tab label="Home" icon={<HomeIcon/>} {...a11yProps(0)} />
+        <Tab label="Stats" icon={<QueryStatsIcon/>} {...a11yProps(1)} />
+        <Tab label="Settings" icon={<SettingsIcon/>} {...a11yProps(2)} />
       </Tabs>
       <TabPanel value={value} index={0}>
         <Home></Home>
